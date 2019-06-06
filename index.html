@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <meta charset="UTF-8" />
-        <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>About</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
 
     <body>
-        <header>
-            <section id="header-content">
+        <section class="header">
+            <header>
                 <h1>Brandt Strom</h1>
                 <nav>
                     <ul>
@@ -20,13 +23,14 @@
                         <li><a href="index.html">About</a></li>
                     </ul>
                 </nav>
-            </section>
-        </header>
-        <div id="container">
-            <section id="main-content">
+            </header>
+        </section>
+
+        <div class="flex-container">
+            <section class="content">
                 <h2>About Me</h2>
                 <hr />
-                <img id="photo" src="assets/images/photo.png" />
+                <img id="photo" src="assets/images/photo.png" alt="Photo of Brandt Strom" />
                 <p>
                     Hello! If you want to know more about me, then keep reading.
                     Otherwise, feel free to hit that back button or close your
@@ -36,10 +40,10 @@
                     My name is Brandt Strom, but considering the large header on
                     this page you probably already knew that. What you probably
                     do NOT know, is that I am a 29 year old Norwegian strawberry
-                    currently living is Redmond, WA. My wife, Rachel, and I have
-                    lived in the same two bedroom apartment for about 4 years
+                    currently living in Redmond, WA. My wife, Rachel, and I have
+                    lived in the same two bedroom apartment for about 5 years
                     now. We hope to own a home some day, but the important
-                    details of 'where' and 'when' are still unknown at this
+                    details of 'where' and 'when' this will be are still unknown at this
                     time.
                 </p>
                 <p>
@@ -68,9 +72,11 @@
             </section>
         </div>
 
-        <footer>
-            <p>Copyright ©</p>
-        </footer>
+        <div class="footer">
+            <footer>
+                <p>Copyright ©</p>
+            </footer>
+        </div>
     </body>
 
 </html>
