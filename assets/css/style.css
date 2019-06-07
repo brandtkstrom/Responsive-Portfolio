@@ -133,7 +133,7 @@ figcaption {
 header,
 footer {
     height: 100%;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -169,8 +169,8 @@ footer {
 }
 
 .content {
-    width: 960px;
-    margin: 40px auto;
+    max-width: 960px;
+    margin: 25px auto;
     padding: 30px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -187,7 +187,8 @@ footer {
 
 #photo {
     float: left;
-    height: 240px;
+    width: 200px;
+    height: auto;
     margin-right: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -195,5 +196,7 @@ footer {
 
 #portfolio {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
